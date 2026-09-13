@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body { 
+body {
     background: url('background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@ body {
     background-position: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     min-height: 100vh;
-    padding-top: 200px; /* Отступ для фиксированного хедера */
+    padding-top: 200px;
 }
 
 /* ========== ФИКСИРОВАННАЯ ВЕРХНЯЯ ПАНЕЛЬ ========== */
@@ -22,7 +22,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(135deg, #400440 0%, #260028 100%);
+    background: linear-gradient(135deg, #A60000 0%, #5C0000 100%);
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
@@ -109,19 +109,13 @@ body {
 
 .title {
     font-size: 32px;
-    background: linear-gradient(135deg, #d000ff, #2b0035);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    color: #A60000;
     margin-bottom: 10px;
 }
 
 .bold-comment {
     font-size: 35px;
-    background: linear-gradient(135deg, #d000ff, #2b0035);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    color: #A60000;
     margin-bottom: 10px;
 }
 
@@ -140,7 +134,7 @@ body {
 hr {
     border: none;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #6d076d, transparent);
+    background: linear-gradient(90deg, transparent, #A60000, transparent);
     margin: 0px 0;
 }
 
@@ -166,7 +160,7 @@ hr {
     align-items: center;
     justify-content: center;
     padding: 12px 28px;
-    background: linear-gradient(135deg, #001a8c 0%, #320063 100%);
+    background: linear-gradient(135deg, #A60000 0%, #700000 100%);
     color: white;
     text-decoration: none;
     border-radius: 50px;
@@ -179,7 +173,7 @@ hr {
 
 .nav-button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0,26,140,0.4);
+    box-shadow: 0 8px 25px rgba(166,0,0,0.4);
 }
 
 /* Карточки тайтлов и команды */
@@ -193,7 +187,7 @@ hr {
 
 .title-card {
     width: 210px;
-    background: rgb(174, 0, 128);
+    background: #A60000;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 8px 20px rgba(0,0,0,0.12);
@@ -204,7 +198,7 @@ hr {
 
 .title-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(0,26,140,0.25);
+    box-shadow: 0 15px 35px rgba(166,0,0,0.25);
 }
 
 .title-card-image, .featured-image {
@@ -221,7 +215,7 @@ hr {
 .title-card-name {
     font-size: 18px;
     font-weight: bold;
-    color: #3f0056;
+    color: #BB63D4;
     margin-bottom: 5px;
 }
 
@@ -232,7 +226,7 @@ hr {
 }
 
 .welcome-banner {
-    background: linear-gradient(135deg, #42003b86, #2e002976);
+    background: linear-gradient(135deg, #A6000086, #5C000076);
     padding: 25px;
     border-radius: 20px;
     text-align: center;
@@ -246,7 +240,7 @@ hr {
     flex-wrap: wrap;
     margin-bottom: 30px;
     padding: 25px;
-    background: linear-gradient(135deg, #3a0033, #3a0035);
+    background: linear-gradient(135deg, #3A0000, #520000);
     border-radius: 20px;
 }
 
@@ -255,7 +249,7 @@ hr {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #7e006f;
+    border: 5px solid #A60000;
 }
 
 .team-card {
@@ -265,7 +259,7 @@ hr {
     width: 210px;
     text-align: center;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(82, 0, 56, 0.468);
+    box-shadow: 0 5px 15px rgba(166, 0, 0, 0.468);
     text-decoration: none;
     color: inherit;
 }
@@ -275,7 +269,7 @@ hr {
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #70006b;
+    border: 3px solid #A60000;
     margin-bottom: 15px;
 }
 
@@ -300,7 +294,7 @@ hr {
 .stat-number {
     font-size: 32px;
     font-weight: bold;
-    color: #a5008f;
+    color: #A60000;
 }
 
 .stat-label {
@@ -312,7 +306,7 @@ hr {
 .team-card-name {
     font-size: 20px;
     font-weight: bold;
-    color: #58005b;
+    color: #BB63D4;
     margin-bottom: 8px;
 }
 
@@ -337,7 +331,7 @@ hr {
     width: auto;
     height: auto;
     border-radius: 15px;
-    box-shadow: 0 8px 25px rgba(208, 0, 255, 0.3);
+    box-shadow: 0 8px 25px rgba(166, 0, 0, 0.3);
     object-fit: contain;
     display: block;
 }
@@ -363,7 +357,7 @@ hr {
 
 .anime-title {
     font-size: 32px;
-    color: #d000ff;
+    color: #BB63D4;
     margin: 0 0 10px 0;
 }
 
@@ -375,7 +369,7 @@ hr {
 }
 
 .anime-tag {
-    background: linear-gradient(135deg, #6d076d, #3a0035);
+    background: linear-gradient(135deg, #A60000, #520000);
     color: #fff;
     padding: 5px 15px;
     border-radius: 25px;
@@ -389,7 +383,7 @@ hr {
     padding: 15px;
     background: rgba(58, 0, 53, 0.3);
     border-radius: 10px;
-    border-left: 4px solid #d000ff;
+    border-left: 4px solid #A60000;
 }
 
 .player-container {
@@ -399,7 +393,7 @@ hr {
     margin: 20px 0;
     aspect-ratio: 16/9;
     width: 100%;
-    border: 2px solid #3a0035;
+    border: 2px solid #A60000;
 }
 
 .episodes-list {
@@ -418,12 +412,12 @@ hr {
 }
 
 .episode-item:hover {
-    background: rgba(208, 0, 255, 0.15);
+    background: rgba(166, 0, 0, 0.15);
 }
 
 .episode-number {
     font-weight: bold;
-    color: #d000ff;
+    color: #A60000;
     min-width: 70px;
 }
 
@@ -466,8 +460,8 @@ hr {
     overflow: hidden;
     text-align: center;
     padding-bottom: 12px;
-    box-shadow: 0 3px 12px rgba(208, 0, 255, 0.15);
-    border: 1px solid #3a0035;
+    box-shadow: 0 3px 12px rgba(166, 0, 0, 0.15);
+    border: 1px solid #A60000;
 }
 
 .character-image {
@@ -480,7 +474,7 @@ hr {
     font-size: 16px;
     font-weight: bold;
     margin: 10px 0 5px 0;
-    color: #d000ff;
+    color: #BB63D4;
 }
 
 .comment-card {
@@ -488,7 +482,7 @@ hr {
     padding: 15px;
     border-radius: 12px;
     margin-bottom: 12px;
-    border-left: 4px solid #d000ff;
+    border-left: 4px solid #A60000;
 }
 
 /* ============================================================
@@ -500,11 +494,11 @@ hr {
     .fixed-header {
         padding: 12px 20px;
     }
-    
+
     .header-logo {
         height: 80px;
     }
-    
+
     .nav-icon-btn {
         padding: 10px 20px;
         font-size: 16px;
@@ -516,7 +510,7 @@ hr {
     body {
         padding-top: 190px;
     }
-    
+
     .fixed-header {
         flex-direction: row;
         flex-wrap: wrap;
@@ -524,96 +518,96 @@ hr {
         padding: 12px 18px;
         gap: 12px;
     }
-    
+
     .header-logo {
         height: 65px;
         margin-right: auto;
     }
-    
+
     .nav-buttons {
         gap: 10px;
         width: 100%;
         justify-content: center;
     }
-    
+
     .nav-icon-btn {
         padding: 10px 20px;
         font-size: 16px;
         gap: 8px;
         border-radius: 40px;
     }
-    
+
     .nav-icon {
         width: 20px;
         height: 20px;
     }
-    
+
     .container {
         margin: 15px 10px;
         padding: 18px;
     }
-    
+
     .title {
         font-size: 28px;
     }
-    
+
     .text, p {
         font-size: 16px;
     }
-    
+
     .title-card, .team-card {
         width: 160px;
     }
-    
+
     .title-card-image {
         height: 220px;
     }
-    
+
     .avatar {
         max-width: 100%;
         height: auto;
     }
-    
+
     .anime-poster {
         width: 180px;
     }
-    
+
     .anime-title {
         font-size: 26px;
     }
-    
+
     .episode-item {
         flex-wrap: wrap;
         gap: 6px;
         padding: 10px 14px;
     }
-    
+
     .episode-title {
         width: 100%;
         order: 2;
         font-size: 14px;
     }
-    
+
     .episode-status {
         margin-left: auto;
         font-size: 11px;
         padding: 3px 10px;
     }
-    
+
     .episode-number {
         min-width: 60px;
         font-size: 14px;
     }
-    
+
     .stat-box {
         min-width: 80px;
         padding: 12px;
     }
-    
+
     .stat-number {
         font-size: 24px;
     }
-    
+
     .stat-label {
         font-size: 14px;
     }
@@ -624,85 +618,85 @@ hr {
     body {
         padding-top: 180px;
     }
-    
+
     .fixed-header {
         padding: 10px 14px;
         gap: 10px;
     }
-    
+
     .header-logo {
         height: 55px;
     }
-    
+
     .nav-buttons {
         gap: 8px;
     }
-    
+
     .nav-icon-btn {
         padding: 8px 16px;
         font-size: 14px;
         gap: 6px;
         border-radius: 35px;
     }
-    
+
     .nav-icon {
         width: 18px;
         height: 18px;
     }
-    
+
     .container {
         margin: 10px 8px;
         padding: 14px;
         border-radius: 15px;
     }
-    
+
     .title {
         font-size: 24px;
     }
-    
+
     .text, p {
         font-size: 14px;
     }
-    
+
     .title-card, .team-card {
         width: 140px;
     }
-    
+
     .title-card-image {
         height: 180px;
     }
-    
+
     .content-box {
         padding: 15px;
     }
-    
+
     .anime-poster {
         width: 140px;
     }
-    
+
     .anime-title {
         font-size: 22px;
     }
-    
+
     .anime-tag {
         font-size: 12px;
         padding: 3px 10px;
     }
-    
+
     .voice-avatar-large {
         width: 130px;
         height: 130px;
     }
-    
+
     .team-card-avatar {
         width: 70px;
         height: 70px;
     }
-    
+
     .character-card {
         width: 140px;
     }
-    
+
     .character-image {
         height: 110px;
     }
@@ -713,30 +707,30 @@ hr {
     body {
         padding-top: 200px;
     }
-    
+
     .fixed-header {
         flex-direction: column;
         align-items: center;
         padding: 10px 12px;
         gap: 8px;
     }
-    
+
     .header-logo {
         height: 50px;
         margin-right: 0;
     }
-    
+
     .nav-buttons {
         justify-content: center;
         gap: 6px;
     }
-    
+
     .nav-icon-btn {
         font-size: 13px;
         padding: 6px 14px;
         gap: 5px;
     }
-    
+
     .nav-icon {
         width: 16px;
         height: 16px;
